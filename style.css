@@ -46,6 +46,14 @@ button:disabled {
   cursor:not-allowed;
 }
 
+.caption {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 10px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
 @media screen and (max-width: 1000px) {
   .container {
     background-position: center center;
